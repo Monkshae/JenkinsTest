@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		90A0038AE5E77F484E90A20B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AECC960818D189C2FCC5338D /* libPods.a */; };
 		D9CADA0C1BDA3E8400B6A6AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CADA0B1BDA3E8400B6A6AD /* main.m */; };
 		D9CADA0F1BDA3E8400B6A6AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CADA0E1BDA3E8400B6A6AD /* AppDelegate.m */; };
 		D9CADA121BDA3E8400B6A6AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CADA111BDA3E8400B6A6AD /* ViewController.m */; };
@@ -37,7 +36,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90A0038AE5E77F484E90A20B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,11 +108,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9CADA1E1BDA3E8400B6A6AD /* Build configuration list for PBXNativeTarget "JenkinsTest" */;
 			buildPhases = (
-				081F1D7543698CF29E2BDC57 /* Check Pods Manifest.lock */,
 				D9CADA031BDA3E8400B6A6AD /* Sources */,
 				D9CADA041BDA3E8400B6A6AD /* Frameworks */,
 				D9CADA051BDA3E8400B6A6AD /* Resources */,
-				C3AA633CA4E3BF5B0A80EB50 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,39 +165,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		081F1D7543698CF29E2BDC57 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C3AA633CA4E3BF5B0A80EB50 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D9CADA031BDA3E8400B6A6AD /* Sources */ = {
