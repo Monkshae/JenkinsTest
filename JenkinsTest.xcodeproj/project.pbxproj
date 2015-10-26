@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC292938A799BD606DDF54B2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF03F571484CB95E5B25809 /* libPods.a */; };
 		D9CADA0C1BDA3E8400B6A6AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CADA0B1BDA3E8400B6A6AD /* main.m */; };
 		D9CADA0F1BDA3E8400B6A6AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CADA0E1BDA3E8400B6A6AD /* AppDelegate.m */; };
 		D9CADA121BDA3E8400B6A6AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CADA111BDA3E8400B6A6AD /* ViewController.m */; };
 		D9CADA151BDA3E8400B6A6AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9CADA131BDA3E8400B6A6AD /* Main.storyboard */; };
 		D9CADA171BDA3E8400B6A6AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9CADA161BDA3E8400B6A6AD /* Assets.xcassets */; };
 		D9CADA1A1BDA3E8400B6A6AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9CADA181BDA3E8400B6A6AD /* LaunchScreen.storyboard */; };
-		EE1B2D14AB888872B4EB9083 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AECC960818D189C2FCC5338D /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5EF03F571484CB95E5B25809 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BC68E6BA7EE1B4E96437798 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8D9EC75E1F0487D80333B4FC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		AECC960818D189C2FCC5338D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9CADA071BDA3E8400B6A6AD /* JenkinsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9CADA0B1BDA3E8400B6A6AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D9CADA0D1BDA3E8400B6A6AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE1B2D14AB888872B4EB9083 /* libPods.a in Frameworks */,
+				AC292938A799BD606DDF54B2 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,7 +47,7 @@
 		4039DA48C9AE999699FFD6DA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AECC960818D189C2FCC5338D /* libPods.a */,
+				5EF03F571484CB95E5B25809 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
